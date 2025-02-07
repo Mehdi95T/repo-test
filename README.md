@@ -42,14 +42,27 @@ Pour répondre aux besoins identifiés, nous avons conçu **ConformiTrain**, une
   - Un inspecteur est notifié lorsqu'une mise en conformité lui est assignée.
   - Un manager est alerté quand une mise en conformité approche de l'expiration.
 
-## 7. Diagramme de cas d'utilisation
-![Diagramme Cas d'Utilisation](cas_utilisation.png)
+## 7. Exemple de maquette de l'application
+### Vue Connexion
+![conformitrain maquette 1](conformitrain%20img/Conformitrain%20maquette%20(1).png)
+
+### Vue Manageurs pour les formulaires de mise en conformité non validés encore
+![conformitrain maquette](conformitrain%20img/Conformitrain%20maquette%20(4).png)
+
+### Vue Manageurs pour les formulaires de mise en conformité qui on été validés
+![conformitrain maquette](conformitrain%20img/Conformitrain%20maquette%20(5).png)
+
+### Vue Inspecteur
+![conformitrain maquette 2](conformitrain%20img/Conformitrain%20maquette(2).png)    
+
+### Vue Formulaire
+![conformitrain maquette 3](conformitrain%20img/Conformitrain%20maquette(3).png)    
 
 ## 8. User Case
 ![Diagramme User Case](user_case.png)
 
 ## 9. Diagramme de classes
-![Diagramme de Classes](diagramme_classes.png)
+![Diagramme de Classes](diagramme%20classe.png)
 
 ## 10. Modèle relationnel de la base de données
 
