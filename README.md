@@ -1,21 +1,38 @@
 # ConformiTrain
 
-## 1. Présentation du projet
-ConformiTrain est une application de bureau développée en JavaFX, conçue pour aider les entreprises ferroviaires à gérer la conformité et les inspections de sécurité des trains. L'objectif est de remplacer le suivi papier des inspections par une solution numérique efficace, réduisant ainsi les erreurs et améliorant le respect des normes de sécurité.
+## 1. Présentation de l'équipe
+Nous sommes une équipe composée de trois personnes:
+- **Mehdi Tarchoul**
+- **Mathys Sousa**
+- **Mouhamad Fall**
 
-## 2. Technologies utilisées
+Nous collaborons pour développer une application innovante destinée à améliorer la sécurité des trains.
+
+## 2. Contexte
+L'application est développée pour une entreprise spécialisée dans la gestion de la sécurité ferroviaire, qui rencontre des difficultés dans la gestion des inspections de sécurité de ses trains. Actuellement, les techniciens utilisent des fiches papier pour consigner les résultats des inspections, ce qui entraîne des erreurs et des retards dans la mise à jour des informations critiques. Ces problèmes compromettent la conformité aux réglementations et, par conséquent, la sécurité des passagers.
+
+## 3. Solutions proposées
+Pour répondre aux besoins identifiés, nous avons conçu **ConformiTrain**, une application qui permet de gérer efficacement les inspections de sécurité des trains.
+
+### Fonctionnalités de ConformiTrain
+- **Remplissage de formulaires** : Les inspecteurs peuvent facilement remplir des formulaires d’inspection directement dans l'application, facilitant ainsi la saisie des données.
+- **Récupération de formulaires avec affectation de conformité** : L'application permet aux inspecteurs de récupérer les formulaires précédemment complétés et de les associer à des états de conformité.
+- **Affectation des dates de mise en conformité** : Les manageurs vont pouvoir placer les rendez-vous conformités pour chaque inspecteur.
+- **Vérification des dates de péremption de la conformité** : Les utilisateurs peuvent suivre les dates de péremption des conformités afin de garantir que toutes les inspections sont à jour et conformes aux normes de sécurité.
+
+## 4. Technologies utilisées
 - **Langage** : Java
 - **Framework** : JavaFX
 - **Base de données** : SQL (hébergée en ligne)
 - **Gestion du code** : Git (GitHub/GitLab)
 - **Outils de planification** : Trello
 
-## 3. Rôles des utilisateurs
+## 5. Rôles des utilisateurs
 - **Administrateurs** : Gèrent les comptes des managers et inspecteurs.
 - **Managers** : Assignent les mises en conformité aux inspecteurs, valident et corrigent les inspections.
 - **Inspecteurs** : Réalisent les inspections et complètent les formulaires numériques.
 
-## 4. Fonctionnalités principales
+## 6. Fonctionnalités principales
 - **Gestion des utilisateurs** : Création, suppression et modification des comptes (admin).
 - **Assignation des mises en conformité** : Les managers peuvent assigner des tâches aux inspecteurs.
 - **Formulaires d'inspection interactifs** : Les inspecteurs complètent les inspections via l'application.
@@ -25,13 +42,16 @@ ConformiTrain est une application de bureau développée en JavaFX, conçue pour
   - Un inspecteur est notifié lorsqu'une mise en conformité lui est assignée.
   - Un manager est alerté quand une mise en conformité approche de l'expiration.
 
-## 5. Diagramme de cas d'utilisation
+## 7. Diagramme de cas d'utilisation
 ![Diagramme Cas d'Utilisation](cas_utilisation.png)
 
-## 6. Diagramme de classes
+## 8. User Case
+![Diagramme User Case](user_case.png)
+
+## 9. Diagramme de classes
 ![Diagramme de Classes](diagramme_classes.png)
 
-## 7. Modèle relationnel de la base de données
+## 10. Modèle relationnel de la base de données
 
 ### Tables principales
 ```sql
@@ -75,7 +95,7 @@ CREATE TABLE Notification (
 );
 ```
 
-## 8. Organisation du code
+## 11. Organisation du code
 ```
 - src/
   - dao/         # Gestion de la BDD
@@ -84,7 +104,7 @@ CREATE TABLE Notification (
   - vue/         # Interface utilisateur JavaFX
 ```
 
-## 9. Planification et Diagramme de Gantt
+## 12. Planification et Diagramme de Gantt
 ![Diagramme de Gantt](gantt.png)
 
 ### Étapes principales
@@ -95,5 +115,5 @@ CREATE TABLE Notification (
 5. **Tests et validation**.
 6. **Finalisation et documentation**.
 
-## 10. Dépôt GitHub
+## 13. Dépôt GitHub
 Le code source est disponible ici : [Lien GitHub](https://github.com/Mehdi95T/ConformiTrain_JavaFX)
